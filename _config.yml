@@ -1,5 +1,6 @@
 # Site Settings
 title: Adrian Gabor
 url: "http://adriangabor.com"
+permalink: http://adriangabor.com/
 
 theme: jekyll-theme-architect
