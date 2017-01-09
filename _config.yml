@@ -4,3 +4,11 @@ show_downloads: false
 google_analytics:
 theme:
 github: https://github.com/adyle5/
+
+# Build settings
+markdown: kramdown
+kramdown:
+  parse_block_html: true
+exclude:
+  - Gemfile
+  - Gemfile.lock
