@@ -1,0 +1,9 @@
+{% for page in site.pages %}
+    {% if page.tags contains "about" %}
+        <a href="{{ page.url }}">{{ page.title }}</a>
+    {% endif %}
+{% endfor %}
+{% if site.github_username %}
+  <a class="fa fa-github" href="https://github.com/{{ site.github_username }}"></a>
+{% endif %}
+<a class="fa fa-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}"></a>
