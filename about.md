@@ -5,7 +5,7 @@ permalink: /about/
 tags: about
 ---
 
-  <div style="width: 40%; float: left; display: block; padding: 5px;">
+  <div style="width: 40%; float: left; display: block; padding: 10px;">
    <img src="/images/me.jpeg" alt="Adrian Gabor" />
   </div>
 
