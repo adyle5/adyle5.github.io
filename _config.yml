@@ -3,7 +3,7 @@ title:       Adrian Gabor
 email:
 author:      Adrian Gabor
 description: "Software Developer || Vinyl Enthusiast."
-baseurl:     "/adyle5.github.io"
+baseurl:     "/"
 url:         "http://adriangabor.com"
 date_format: "%b %-d, %Y"
 
