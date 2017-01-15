@@ -4,6 +4,7 @@ title:      What I'm spinning
 date:       2017-01-15 11:37:00
 summary:    I am spinning the newest Wilco LP "Schmilco"
 categories: vinyl
+image: /images/schmilco.jpg
 ---
 
 ## {{ page.summary }}
