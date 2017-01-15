@@ -3,8 +3,8 @@ title:       Adrian Gabor
 email:
 author:      Adrian Gabor
 description: "Software Developer || Vinyl Enthusiast."
-baseurl:     ""
-url:         "http://www.adriangabor.com"
+baseurl:     "http://adriangabor.com"
+url:         "http://adriangabor.com"
 date_format: "%b %-d, %Y"
 
 # Google services
