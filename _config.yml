@@ -8,7 +8,7 @@ url:         "http://adriangabor.com"
 date_format: "%b %-d, %Y"
 
 # Google services
-google_verification:
+google_verification: cgmXp2-oxDvH5LCMNLEr_iMSeCGXlIiWOPQeyq4Hr5k
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
 google_analytics: UA-90440025
