@@ -7,6 +7,10 @@ tags: code-camp
 
 I will add links and code here used during my code camp presentation on .NET Core and Visual Studio Code on Linux.
 
+[Follow Along Instructions](/code-camp/follow-along/)
+
+[Code Camp Commands](/code-camp/commands/)
+
 * * *
 
 ## Visual Studio Code
