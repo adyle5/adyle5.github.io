@@ -22,3 +22,5 @@ On a Mac, I highly recommend using a virtual machine with a fresh copy of Ubuntu
 If your main OS is Ubuntu, you can follow along without using a virtual machine, if you choose. However, I still recommend using a VM for this course. I prefer [VMWare Player](http://www.vmware.com/go/tryplayerpro-linux-64). Even though it is closed source and VirtualBox is open, I've had much better results with VMWare and find it more stable. But if you prefer VirtualBox, by all means use it.
 
 Whether you use a VM or not, it is very important to make sure that the operating system is up to date. Depending on the size of the update, it could take a long time to run the updates and we will not have time during the presentation to wait for updates to run. This is me minimum requirement.
+
+One last thing, if you are using an Ubuntu VM, you will want to install the VMWare tools. Instructions on how to do it can be found at: [https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1022525](https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1022525).
