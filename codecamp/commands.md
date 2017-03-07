@@ -19,7 +19,7 @@ permalink: /code-camp/commands/
 8. For 16.04: sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main" > /etc/apt/sources.list.d/dotnetdev.list'
 9. sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
 10. sudo apt-get update
-11. [https://github.com/dotnet/core/tree/master/release-notes](https://github.com/dotnet/core/tree/master/release-notes){:target="_blank"}
+ [https://github.com/dotnet/core/tree/master/release-notes](https://github.com/dotnet/core/tree/master/release-notes){:target="_blank"}
 12. sudo apt-cache search dotnet
 13. sudo apt-get install dotnet-dev-1.0.0-rc4-004771
 14. mkdir HelloWorldApp
