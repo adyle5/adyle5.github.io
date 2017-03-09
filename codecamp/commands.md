@@ -15,13 +15,13 @@ permalink: /code-camp/commands/
 4. git --version
 5. which git
 6. [https://www.microsoft.com/net/core#linuxubuntu](https://www.microsoft.com/net/core#linuxubuntu){:target="_blank"}
-7. For 14.04: sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ trusty main" > /etc/apt/sources.list.d/dotnetdev.list'
-8. For 16.04: sudo sh -c 'echo "deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main" > /etc/apt/sources.list.d/dotnetdev.list'
+7. For 14.04: sudo sh -c \'echo \"deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ trusty main\" > /etc/apt/sources.list.d/dotnetdev.list\'
+8. For 16.04: sudo sh -c \'echo \"deb [arch=amd64] https://apt-mo.trafficmanager.net/repos/dotnet-release/ xenial main\" > /etc/apt/sources.list.d/dotnetdev.list\'
 9. sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 417A0893
 10. sudo apt-get update
  [https://github.com/dotnet/core/tree/master/release-notes](https://github.com/dotnet/core/tree/master/release-notes){:target="_blank"}
 12. sudo apt-cache search dotnet
-13. sudo apt-get install dotnet-dev-1.0.0-rc4-004771
+13. sudo apt-get install dotnet-dev-1.0.1
 14. mkdir HelloWorldApp
 15. cd HelloWorldApp
 16. dotnet new
