@@ -1,4 +1,3 @@
-
 ---
 layout:     post
 title:      New Jekyll Site - SECSchedule.com
