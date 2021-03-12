@@ -1,0 +1,65 @@
+﻿.grid-page {
+}
+
+.loginForm {
+    display: grid;
+    justify-content: center;
+    grid-template-areas: 'user pass submit' 'validation validation validation';
+    grid-gap: 20px;
+}
+
+    .loginForm .user {
+        grid-area: user;
+    }
+
+    .loginForm .pass {
+        grid-area: pass;
+    }
+
+    .loginForm .submit {
+        grid-area: submit;
+        align-self: center;
+    }
+
+    .loginForm .validaiton {
+        grid-area: validation;
+    }
+
+    .loginForm button {
+        margin: 0;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+.login {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.1);
+    padding: 10px 15px;
+    border-radius: 10px;
+    background: #fff;
+    width: 300px;
+}
+
+    .login input {
+        border: none;
+        outline: none;
+        width: 100%;
+    }
+
+.success, .error {
+    text-align: center;
+}
+
+@media (max-width: 1500px) {
+    .login {
+        width: 200px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .loginForm {
+        justify-content: center;
+        grid-template: "user" "pass" "submit" "validation";
+    }
+}

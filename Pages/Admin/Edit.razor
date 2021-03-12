@@ -1,0 +1,94 @@
+﻿@page "/admin/edit/{Id:int}"
+@page "/admin/create" 
+
+
+<AuthorizeView Context="Auth">
+    <Authorized>
+        <div id="grid-container">
+            <h2>Edit</h2>
+            <div class="grid-page">
+                @if (post != null)
+                {
+                <EditForm Model="@post" OnValidSubmit="@Submit">
+                    <input type="hidden" @bind="post.ID" />
+
+                    <div class="post-container">
+                        <label for="title">Title: </label>
+                        <div class="edit"><input id="title" @bind="post.Title" /></div>
+                    </div>
+
+                    <div class="post-container">
+                        <label for="date">Date: </label>
+                        <div class="edit"><input id="date" type="date" @bind="post.PostDate" /></div>
+                    </div>
+
+                    <div class="post-container">
+                        <label for="link">Link: </label>
+                        <div class="edit"><input id="link" @bind="post.PostLink" /></div>                       
+                    </div>
+
+                    <div class="post-container">
+                        <label for="slug">Slug: </label>
+                        <div class="edit"><input id="slug" @bind="post.Slug" /></div>                       
+                    </div>
+
+                    <div class="post-container">
+                        <label for="image">Slug Image: </label>
+                        <div class="edit"><input id="image" @bind="post.SlugImageUrl" /></div>                        
+                    </div>
+
+                    <div class="post-container">
+                        <label for="content">Content: </label>
+                        <div class="rtf">
+                            <div class="toolbar">
+                                <span># = h1</span>
+                                <span>## = h2</span>
+                                <span>### = h3</span>
+                                <span>- = ul</span>
+                                <span>1. = ol</span>
+                                <span>> = blockquote</span>
+                                <span>**X** = bold</span>
+                                <span>*X* = italic</span>
+                                <span>~~X~~ = strikethrough</span>
+                                <span>`X` = code</span>
+                                <span>[title](url) = link</span>
+                                <span>![name](location) = image</span>
+                            </div>
+                            <div class="edit">
+                                <textarea id="content" @bind="post.Content"></textarea>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="submit">
+                        <button type="button" @onclick="Preview">Preview</button>
+                        <button type="submit">Submit</button>
+                    </div>
+                    <div class="validation">
+                        <DataAnnotationsValidator />
+                        <ValidationSummary />
+                    </div>
+                </EditForm>
+                }
+            </div>
+
+            @if (!string.IsNullOrEmpty(errorMessage))
+            {
+                <div class="error">@errorMessage</div>
+            }
+
+            <a href="/admin/posts" id="back">[Back to posts]</a>
+
+            <AGModal @ref="modal">
+                @if (post != null && !string.IsNullOrEmpty(post.Content))
+                {
+                    @((MarkupString)previewText)
+                }
+            </AGModal>
+        </div>
+    </Authorized>
+    <NotAuthorized>
+        The User is not authorized
+    </NotAuthorized>
+</AuthorizeView>

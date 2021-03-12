@@ -1,0 +1,35 @@
+﻿@page "/admin/login"
+
+<div id="grid-container">
+    <div class="grid-page">
+        <EditForm Model="@loginModel" OnValidSubmit="@Submit">
+            <div class="loginForm">
+                <div class="user login">
+                    <input placeholder="Username..." id="userName" @bind="loginModel.UserName" />
+                    <div>
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+
+                <div class="pass login">
+                    <input placeholder="Password..." id="password" type="password" @bind="loginModel.Password" />
+                    <div>
+                        <i class="fas fa-lock"></i>
+                    </div>
+                </div>
+                <div class="submit">
+                    <button type="submit">Submit</button>
+                </div>
+                <div class="validation">
+                    <DataAnnotationsValidator />
+                    <ValidationSummary />
+                </div>
+            </div>
+        </EditForm>
+
+        @if (!string.IsNullOrEmpty(loginError))
+        {
+            <div class="error">@loginError</div>
+        }
+    </div>
+</div>

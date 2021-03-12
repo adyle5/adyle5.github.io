@@ -1,0 +1,20 @@
+﻿<div class="search">
+    <input placeholder="Search..." @bind="searchTerm" @onkeyup="SearchKeyPress" />
+    <div>
+        <i class="fas fa-search" @onclick="SearchClicked"></i>
+    </div>
+</div>
+
+<AGModal @ref="modal">
+    <h4>Search results for <em>@searchTerm</em></h4>
+    @if (Posts != null)
+    {
+        <Virtualize Items="Posts" Context="post" TItem="PostViewModel">
+            <div class="search-post">
+                <div class="search-post-title">@post.Title</div>
+                <div class="search-post-date">@post.PostDate.ToString("MMMM d, yyyy")</div>
+                <div class="search-post-slug">@post.Slug <a class="post-link" href="/@post.PostLink" @onclick="CloseModal">[Read More...]</a></div>
+            </div>
+        </Virtualize>
+    }
+</AGModal>

@@ -1,0 +1,36 @@
+﻿@page "/"
+
+<div id="grid-container">
+    <h2>Articles</h2>
+    @if (Posts != null)
+    {
+        @foreach (var post in Posts)
+        {
+            <div class="grid-post">
+                <div class="grid-post-date">@post.PostDate.ToString("MMMM d, yyyy")</div>
+                <div class="grid-post-image">
+                    @if (!string.IsNullOrWhiteSpace(post.SlugImageUrl))
+                    {
+                        <img src="@post.SlugImageUrl" />
+                    }
+                    else
+                    {
+                        <div class="image_space"></div>
+                    }
+                </div>
+                <div class="grid-post-title">@post.Title</div>
+                <div class="grid-post-slug">@post.Slug <a class="post-link" href="/@post.PostLink">[ Read More ]</a></div>
+            </div>
+        }
+        <div class="pager">
+            <i class="fas fa-arrow-alt-circle-left" style="@previous" @onclick="() => GetPosts(Direction.Backward)"></i>
+            <i class="fas fa-arrow-alt-circle-right" style="@next" @onclick="() => GetPosts(Direction.Forward)"></i>
+        </div>
+    }
+    else
+    {
+        <div class="cog_container">
+            <i class="fas fa-cog fa-7x"></i>
+        </div>
+    }
+</div>

@@ -1,0 +1,43 @@
+﻿#post-container {
+    width: 100%;
+    max-width: 1440px;
+    min-width: 300px;
+    box-sizing: border-box;
+    padding: 10px 40px;
+    overflow: auto;
+    margin: 0 auto;
+    line-height: 2.5;
+}
+
+    #post-container h2 {
+        font-size: 40px;
+    }
+
+
+#post-date {
+    position: relative;
+    justify-self: end;
+    right: 20px;
+    text-align: end;
+    padding: 10px 10px 20px 10px;
+    font-style: italic;
+    font-weight: 600;
+}
+
+#post-back {
+    position: relative;
+    justify-self: center;
+    padding-top: 30px;
+    text-align: center;
+}
+
+#post-back a {
+    padding-top: 30px;
+    text-decoration: none !important;
+    font-size: 20px;
+    color: #0000EE;
+}
+
+#post-back a:hover {
+    text-decoration: underline !important;
+}

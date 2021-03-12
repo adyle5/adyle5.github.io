@@ -1,0 +1,46 @@
+﻿@page "/admin/posts"
+
+<AuthorizeView>
+    <Authorized>
+        <div id="grid-container">
+            @if (PostsVM != null)
+            {
+                <h2>Articles</h2>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th><a href="/admin/create"><i class="fas fa-plus-square"></i></a></th>
+                            <th>Title</th>
+                            <th>Post Link</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <Virtualize Items="PostsVM" Context="post" TItem="PostViewModel">
+                            <tr>
+                                <td><button type="button" @onclick="() => ShowDeleteModal(post.ID)" class="crud"><i class="fas fa-trash"></i></button> <button type="button" @onclick="() => NavigateToPost(post.ID)" class="crud"><i class="fas fa-edit"></i></button></td>
+                                <td>@post.Title</td>
+                                <td>@post.PostLink</td>
+                                <td>@post.PostDate.ToShortDateString()</td>
+                            </tr>
+                        </Virtualize>
+                    </tbody>
+                </table>
+            }
+        </div>
+
+        <AGModal @ref="modal">
+            <div>Are you sure you want to delete article @idToDelete?</div>
+            <button type="button" @onclick="DeleteClicked">Delete</button>
+
+            @if (!string.IsNullOrEmpty(deleteErrorMessage))
+            {
+                <div class="error">@deleteErrorMessage</div>
+            }
+        </AGModal>
+    </Authorized>
+    <NotAuthorized>
+        The User is not authorized
+    </NotAuthorized>
+</AuthorizeView>

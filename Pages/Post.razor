@@ -1,0 +1,19 @@
+﻿@page "/{postlink}"
+
+<div id="grid-container">
+    <div id="post-container">
+        @if (post != null)
+        {
+            <h2>@post.Title</h2>
+            <div id="post-date">@post.PostDate.ToString("MMMM d, yyyy")</div>
+            <div id="post-content">
+                @((MarkupString)post.Content)
+            </div>
+        }
+        else
+        {
+            <h2>Content unavailable</h2>
+        }
+        <div id="post-back"><a href="/">[ Back to Articles ]</a></div>
+    </div>
+</div>

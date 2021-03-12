@@ -1,0 +1,11 @@
+﻿@page "/photography"
+
+<div id="grid-container">
+    <h2>Photography</h2>
+    <div class="grid-page">
+        @if (photos != null)
+        {
+            <AGCarousel Photos="@photos" />
+        }
+    </div>
+</div>
