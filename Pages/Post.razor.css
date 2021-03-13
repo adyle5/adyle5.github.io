@@ -41,3 +41,16 @@
 #post-back a:hover {
     text-decoration: underline !important;
 }
+
+#post-container p {
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+
+#post-container img {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    max-width: 100%;
+}
