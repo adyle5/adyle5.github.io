@@ -13,7 +13,7 @@
       "url": "code_camp.png"
     },
     {
-      "hash": "sha256-Vd7qhlyoWBGg5pM++O\/OraOEICc26TchaJhPj6\/3aYc=",
+      "hash": "sha256-tDX5ZPucVMpcjC\/zXoRZYEV13QSyySq4VY6GkBdbAlk=",
       "url": "css\/app.css"
     },
     {
@@ -7189,5 +7189,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "fZ2c\/LJw"
+  "version": "+z3\/vDmw"
 };

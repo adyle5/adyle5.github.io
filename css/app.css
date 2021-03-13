@@ -84,6 +84,18 @@ td {
     padding: 8px;
 }
 
+/* Used in articles.*/
+p {
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
 #sidebar {
     background-color: #f2f2f2;
     width: var(--sidebar-width);
