@@ -387,6 +387,19 @@ p[b-gx2g3elmln] {
 #post-back a:hover[b-aatwyi7hc9] {
     text-decoration: underline !important;
 }
+
+#post-container p[b-aatwyi7hc9] {
+    padding-bottom: 30px;
+    line-height: 1.6;
+}
+
+#post-container img[b-aatwyi7hc9] {
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 40px;
+    padding-top: 10px;
+    max-width: 100%;
+}
 /* /Pages/Stack.razor.rz.scp.css */
 .logos[b-lae6r6tmjj] {
     display: flex;
