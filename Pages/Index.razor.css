@@ -41,6 +41,7 @@
     font-weight: lighter;
     font-style: italic;
     justify-self: end;
+    padding-bottom: 5px;
 }
 
 .post-link {
@@ -100,6 +101,8 @@
 @media (max-width: 1570px) {
     .grid-post {
         height: initial;
+        grid-template-areas: 'date' 'title' 'slug';
+        grid-template-columns: auto;
     }
 
     .grid-post-image {
