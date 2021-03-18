@@ -6925,7 +6925,7 @@
       "url": "_framework\/dotnet.5.0.1.js"
     },
     {
-      "hash": "sha256-E2FMFvkH5AzBnTicP8ga0x1c7OYeyQMtp\/9d3VSPWZA=",
+      "hash": "sha256-bzAxpcyzUXEVWR\/iLtRAHy6tDtXVmcmtHnEThBYED+A=",
       "url": "AGBlog.styles.css"
     },
     {
@@ -7189,5 +7189,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "+z3\/vDmw"
+  "version": "XZ5Eyovo"
 };

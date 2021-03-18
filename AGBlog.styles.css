@@ -243,6 +243,7 @@ td[b-p57rxm86c5] {
     font-weight: lighter;
     font-style: italic;
     justify-self: end;
+    padding-bottom: 5px;
 }
 
 .post-link[b-h6h70jk1y7] {
@@ -302,6 +303,8 @@ td[b-p57rxm86c5] {
 @media (max-width: 1570px) {
     .grid-post[b-h6h70jk1y7] {
         height: initial;
+        grid-template-areas: 'date' 'title' 'slug';
+        grid-template-columns: auto;
     }
 
     .grid-post-image[b-h6h70jk1y7] {
