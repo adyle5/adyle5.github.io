@@ -6,7 +6,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\appsettings.Development.json" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\agblog.js" />
+    <None Include="wwwroot\appsettings.Development.json" />
   </ItemGroup>
 
   <ItemGroup>
