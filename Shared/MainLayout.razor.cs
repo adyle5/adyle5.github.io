@@ -19,7 +19,7 @@ namespace AGBlog.Shared
         [Inject]
         public AuthenticationStateProvider authProvider { get; set; }
 
-        string homeSelected, stackSelected, photographySelected, aboutSelected, logoutSelected;
+        string homeSelected, stackSelected, photographySelected, articlesSelected, logoutSelected;
         string linkColor = "background-color: lightgreen; color: black;";
 
         protected override void OnInitialized()
@@ -40,26 +40,26 @@ namespace AGBlog.Shared
             {
                 case "/":
                     homeSelected = linkColor;
-                    stackSelected = photographySelected = aboutSelected = logoutSelected = "";
+                    stackSelected = photographySelected = articlesSelected = logoutSelected = "";
                     break;
                 case "stack":
                     stackSelected = linkColor;
-                    homeSelected = photographySelected = aboutSelected = logoutSelected = "";
+                    homeSelected = photographySelected = articlesSelected = logoutSelected = "";
                     break;
                 case "photography":
                     photographySelected = linkColor;
-                    homeSelected = stackSelected = aboutSelected = logoutSelected = "";
+                    homeSelected = stackSelected = articlesSelected = logoutSelected = "";
                     break;
-                case "about":
-                    aboutSelected = linkColor;
+                case "articles":
+                    articlesSelected = linkColor;
                     homeSelected = stackSelected = photographySelected = logoutSelected = "";
                     break;
                 case "logout":
                     logoutSelected = linkColor;
-                    aboutSelected = homeSelected = stackSelected = photographySelected = "";
+                    articlesSelected = homeSelected = stackSelected = photographySelected = "";
                     break;
                 default:
-                    homeSelected = stackSelected = photographySelected = aboutSelected = "";
+                    homeSelected = stackSelected = photographySelected = articlesSelected = "";
                     break;
             }
 
