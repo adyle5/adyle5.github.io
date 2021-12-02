@@ -6925,7 +6925,7 @@
       "url": "_framework\/dotnet.5.0.1.js"
     },
     {
-      "hash": "sha256-bzAxpcyzUXEVWR\/iLtRAHy6tDtXVmcmtHnEThBYED+A=",
+      "hash": "sha256-pTqY3b3pJZe1rkQaf6pptcnOBFi+rkj6aj4ccw7A1Tg=",
       "url": "AGBlog.styles.css"
     },
     {
@@ -7033,7 +7033,7 @@
       "url": "_framework\/System.IO.Pipelines.dll"
     },
     {
-      "hash": "sha256-WW6l7d64JWkt1UR6uwiEyx5rmd8jLQ5iarvzl5ZZHdk=",
+      "hash": "sha256-jiFjsYkdml9AHMT+JxlB94pbdanGHybhRTeN5Iy0qFw=",
       "url": "_framework\/AGBlog.dll"
     },
     {
@@ -7181,7 +7181,7 @@
       "url": "_framework\/System.Private.CoreLib.dll"
     },
     {
-      "hash": "sha256-9JDYnMdF1PJFtOb9QKLO1AFbGRxhHVo0H2wrwGReJmg=",
+      "hash": "sha256-p9v1Edcg5ZMtmO\/o02UwCeiUnO8DmYtIi3M7EkjRHlE=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -7189,5 +7189,5 @@
       "url": "_framework\/blazor.webassembly.js"
     }
   ],
-  "version": "ql\/dU+kc"
+  "version": "lMT\/ilfj"
 };

@@ -199,8 +199,8 @@ td[b-p57rxm86c5] {
     color: white;
     cursor: pointer;
 }
-/* /Pages/Index.razor.rz.scp.css */
-.grid-post[b-h6h70jk1y7] {
+/* /Pages/Articles.razor.rz.scp.css */
+.grid-post[b-w8u80kocf5] {
     min-height: 166px;
     max-width: 1400px;
     background: #ffffff;
@@ -216,29 +216,29 @@ td[b-p57rxm86c5] {
     grid-template-columns: 100px auto;
 }
 
-.grid-post-image[b-h6h70jk1y7] {
+.grid-post-image[b-w8u80kocf5] {
     grid-area: image;
     align-self: center;
 }
 
-    .grid-post-image img[b-h6h70jk1y7] {
+    .grid-post-image img[b-w8u80kocf5] {
         height: 100px;
         width: 100px;
         overflow: hidden;
     }
 
-    .grid-post-title[b-h6h70jk1y7] {
-        grid-area: title;
-        font-size: 1.5rem;
-        font-weight: 800;
-    }
+.grid-post-title[b-w8u80kocf5] {
+    grid-area: title;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
 
-.grid-post-slug[b-h6h70jk1y7] {
+.grid-post-slug[b-w8u80kocf5] {
     grid-area: slug;
     line-height: 1.6;
 }
 
-.grid-post-date[b-h6h70jk1y7] {
+.grid-post-date[b-w8u80kocf5] {
     grid-area: date;
     font-weight: lighter;
     font-style: italic;
@@ -246,39 +246,39 @@ td[b-p57rxm86c5] {
     padding-bottom: 5px;
 }
 
-.post-link[b-h6h70jk1y7] {
+.post-link[b-w8u80kocf5] {
     text-decoration: none;
     padding-left: 5px;
     color: #0000EE;
 }
 
-    .post-link:hover[b-h6h70jk1y7] {
+    .post-link:hover[b-w8u80kocf5] {
         text-decoration: underline;
     }
 
-.pager[b-h6h70jk1y7] {
+.pager[b-w8u80kocf5] {
     padding: 20px;
     margin: 0 auto;
 }
 
-    .pager i[b-h6h70jk1y7] {
+    .pager i[b-w8u80kocf5] {
         font-size: 75px;
         padding: 10px;
         color: var(--element-color);
     }
 
-.cog_container[b-h6h70jk1y7] {
+.cog_container[b-w8u80kocf5] {
     display: flex;
     width: 100%;
     color: #ff8000;
     padding: 20px 0;
 }
 
-    .cog_container i[b-h6h70jk1y7] {
+    .cog_container i[b-w8u80kocf5] {
         margin: 0 auto;
         -webkit-animation: spin-cog 2s linear infinite;
         -moz-animation: spin-cog 2s linear infinite;
-        animation: spin-cog-b-h6h70jk1y7 2s linear infinite;
+        animation: spin-cog-b-w8u80kocf5 2s linear infinite;
     }
 
 @-moz-keyframes spin-cog {
@@ -293,7 +293,7 @@ td[b-p57rxm86c5] {
     }
 }
 
-@keyframes spin-cog-b-h6h70jk1y7 {
+@keyframes spin-cog-b-w8u80kocf5 {
     100% {
         -webkit-transform: rotate(360deg);
         transform: rotate(360deg);
@@ -301,43 +301,84 @@ td[b-p57rxm86c5] {
 }
 
 @media (max-width: 1570px) {
-    .grid-post[b-h6h70jk1y7] {
+    .grid-post[b-w8u80kocf5] {
         height: initial;
         grid-template-areas: 'date' 'title' 'slug';
         grid-template-columns: auto;
     }
 
-    .grid-post-image[b-h6h70jk1y7] {
+    .grid-post-image[b-w8u80kocf5] {
         display: none;
     }
 
-    .grid-post-title[b-h6h70jk1y7] {
+    .grid-post-title[b-w8u80kocf5] {
         font-size: 1.2rem;
     }
 }
 
 @media (max-width: 800px) {
-    .grid-post[b-h6h70jk1y7] {
+    .grid-post[b-w8u80kocf5] {
         height: initial;
     }
 
-    .grid-post-image[b-h6h70jk1y7] {
+    .grid-post-image[b-w8u80kocf5] {
         display: none;
     }
 
-    .grid-post-title[b-h6h70jk1y7] {
+    .grid-post-title[b-w8u80kocf5] {
         font-size: 1rem;
     }
 
-    .pager[b-h6h70jk1y7] {
+    .pager[b-w8u80kocf5] {
         padding: 10px;
         margin: 0 auto;
     }
 
-        .pager i[b-h6h70jk1y7] {
+        .pager i[b-w8u80kocf5] {
             font-size: 25px;
             padding: 10px;
         }
+}
+/* /Pages/Index.razor.rz.scp.css */
+p[b-h6h70jk1y7] {
+    line-height: 2;
+    margin: 20px;
+    font-size: 20px;
+}
+
+img[b-h6h70jk1y7] {
+    display: block;
+    margin: 0 auto;
+    cursor: pointer;
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 35px;
+}
+
+a[b-h6h70jk1y7] {
+    text-decoration: none;
+    padding-left: 5px;
+    color: #0000EE;
+}
+
+    a:hover[b-h6h70jk1y7] {
+        text-decoration: underline;
+    }
+
+@media (max-width: 800px) {
+    p[b-h6h70jk1y7] {
+        font-size: 15px;
+        line-height: 1.5;
+        margin: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    p[b-h6h70jk1y7] {
+        font-size: 12px;
+        line-height: 1;
+        margin: 10px;
+    }
 }
 /* /Pages/Photography.razor.rz.scp.css */
 p[b-gx2g3elmln] {
