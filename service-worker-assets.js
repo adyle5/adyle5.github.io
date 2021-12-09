@@ -6885,7 +6885,7 @@
       "url": "icons\/sqlite.png"
     },
     {
-      "hash": "sha256-NoRN0EVYW\/6MH1cjl2PY3xlnUXcTN\/Bk83YXQZqMgUo=",
+      "hash": "sha256-xFE2s4DHMMBhtLnZJS\/k+\/rwLEr2D1B5wKLV3NSM\/Jg=",
       "url": "index.html"
     },
     {
@@ -7201,5 +7201,5 @@
       "url": "_content\/AGBlazorComponents\/exampleJsInterop.js"
     }
   ],
-  "version": "TL01fqgf"
+  "version": "6IuEfbhr"
 };
