@@ -6837,6 +6837,10 @@
       "url": "icon-512.png"
     },
     {
+      "hash": "sha256-zDR6TpRYv5\/E8jCuNuA1DJ8r6C7VzpL0AB9VRtHYUcU=",
+      "url": "icons\/azure-functions-logo.png"
+    },
+    {
       "hash": "sha256-NlHu3NUfVlPOk9QPDWZnG31dXf07VvhD4wkNMwMuq0s=",
       "url": "icons\/azure.png"
     },
@@ -6851,6 +6855,10 @@
     {
       "hash": "sha256-2quLIu+Trp\/VGE\/VueZPrhsK5X8v7yDuM\/nXrV8daZE=",
       "url": "icons\/css3.png"
+    },
+    {
+      "hash": "sha256-Y+pyRRQnfM60Ly0NQ2ty48dXakCPA1I36Un4vVttluw=",
+      "url": "icons\/devops.jpg"
     },
     {
       "hash": "sha256-jlhg4QCSsKepjQi1x6PeuXu2qjsyHkFFutSgesjqlqs=",
@@ -6929,7 +6937,7 @@
       "url": "_framework\/icudt.dat"
     },
     {
-      "hash": "sha256-Ida1yhIz1U\/LLk6IWJ9zJjyek4+zRfPGVaJZbqKRhnE=",
+      "hash": "sha256-vCqV8n+MNTgLe7oOAt7jg6Iao70n6GFJd1Rq7HlpyCI=",
       "url": "_framework\/blazor.boot.json"
     },
     {
@@ -6937,7 +6945,7 @@
       "url": "_framework\/AGBlazorComponents.dll"
     },
     {
-      "hash": "sha256-Y4R1JKDu6iFLyAqt9x8IOhaZR4hghMGjfw8DNYhFCz0=",
+      "hash": "sha256-iv2yMypFycDzYx0pcLtaI7Xr9CddT16bqheqEdA+5uA=",
       "url": "_framework\/AGBlog.dll"
     },
     {
@@ -7201,5 +7209,5 @@
       "url": "_content\/AGBlazorComponents\/exampleJsInterop.js"
     }
   ],
-  "version": "6IuEfbhr"
+  "version": "TMIZcu0x"
 };
