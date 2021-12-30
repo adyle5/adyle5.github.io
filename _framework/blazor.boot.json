@@ -10,7 +10,7 @@
   "resources": {
     "assembly": {
       "AGBlazorComponents.dll": "sha256-KTLVfCzmAt9RP8F6NA+znAbXBfcsrCrF6LgDR1Phbs4=",
-      "AGBlog.dll": "sha256-iv2yMypFycDzYx0pcLtaI7Xr9CddT16bqheqEdA+5uA=",
+      "AGBlog.dll": "sha256-4dqSDYb3q9x9hxyNrIKSqb2VpopYePRTS8tAujJ+RQ8=",
       "AGMarkdown.dll": "sha256-3\/LAy3XK3g\/qzQ\/1+YiRmqaT6h+hMaq8QuC2IJOyHOY=",
       "Microsoft.AspNetCore.Authorization.dll": "sha256-DP2yQpvornIEny8l3bEg3p\/FShAEX8ZyIeWIXikPM0g=",
       "Microsoft.AspNetCore.Components.Authorization.dll": "sha256-pJhJUyK+Keb6Y2KS88dHTklO59WZe6nGArXGLtzs7ng=",
