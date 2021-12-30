@@ -1,13 +1,8 @@
 ﻿using AGBlog.ViewModels;
 using Microsoft.AspNetCore.Components;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Threading.Tasks;
-using System.IO;
-using System.Text;
 using AGMarkdown;
 
 namespace AGBlog.Pages
@@ -24,13 +19,19 @@ namespace AGBlog.Pages
         public string postlink { get; set; }
 
         PostViewModel post;
+        string message = "Searching for article...";
 
         protected override async Task OnInitializedAsync()
         {
-            post = await Http.GetFromJsonAsync<PostViewModel>($"/posts/{postlink}");
-
-            // Move to DI pipeline.
-            post.Content = parser.ConvertMarkdown(post.Content);
+            try
+            {
+                post = await Http.GetFromJsonAsync<PostViewModel>($"/posts/{postlink}");
+                post.Content = parser.ConvertMarkdown(post.Content);
+            }
+            catch (HttpRequestException)
+            {
+                message = "Content not available";
+            }
 
             StateHasChanged();
         }
